@@ -747,6 +747,11 @@ h4 {
 }
 
 .white {
+  color: #fff !important;
+  font-size: 15px;
+}
+
+.brown {
   color: #241000 !important;
 }
 

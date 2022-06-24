@@ -2021,6 +2021,10 @@ pre code {
   margin-left: -15px;
 }
 
+.row h2 {
+  font-size: 20px;
+}
+
 .col-lg-1,
 .col-lg-10,
 .col-lg-11,

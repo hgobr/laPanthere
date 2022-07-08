@@ -1,0 +1,27 @@
+{
+  "name": "starting-website-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "cssnano": "^5.1.12",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css1": "postcss ./css/bootstrap.css -u cssnano -o ./css/bootsrap.main.css",
+    "css2": "postcss ./css/font-awesome.css -u cssnano -o ./css/font-awesome.main.css",
+    "css3": "postcss style.css -u cssnano -o style.main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hgobr/laPanthere.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hgobr/laPanthere/issues"
+  },
+  "homepage": "https://github.com/hgobr/laPanthere#readme"
+}

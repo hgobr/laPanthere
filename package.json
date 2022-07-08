@@ -5,6 +5,7 @@
   "main": "index.js",
   "devDependencies": {
     "cssnano": "^5.1.12",
+    "minify": "^9.1.0",
     "postcss": "^8.4.14",
     "postcss-cli": "^10.0.0"
   },
@@ -12,7 +13,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "css1": "postcss ./css/bootstrap.css -u cssnano -o ./css/bootsrap.main.css",
     "css2": "postcss ./css/font-awesome.css -u cssnano -o ./css/font-awesome.main.css",
-    "css3": "postcss style.css -u cssnano -o style.main.css"
+    "css3": "postcss style.css -u cssnano -o style.main.css",
+    "blocs": "minify ./js/blocs.js > ./js/blocs.main.js",
+    "bootstrap": "minify ./js/bootstrap.js > ./js/bootstrap.main.js",
+    "jquery": "minify ./js/jquery-2.1.0.js > ./js/jquery-2.1.0.main.js",
+    "jquerytouch": "minify ./js/jquery.touchSwipe.js > ./js/jquery.touchSwipe.main.js",
+    "jqbootstrap": "minify ./js/jqBootstrapValidation.js > ./js/jqBootstrapValidation.main.js",
+    "formhandler": "minify ./js/formHandler.js > ./js/formHandler.main.js"
   },
   "repository": {
     "type": "git",
